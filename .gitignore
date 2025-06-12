@@ -1,0 +1,21 @@
+# Ignorar pastas de dependências
+vehicles-api-ts/node_modules/
+vehicle-frontend/node_modules/
+
+# Ignorar arquivos de build
+vehicles-api-ts/dist/
+vehicle-frontend/dist/
+vehicle-frontend/build/ # Para Create React App se for usar build de produção
+
+# Ignorar variáveis de ambiente
+.env
+.env.local
+
+# Ignorar logs e caches
+npm-debug.log*
+yarn-debug.log*
+.DS_Store
+*.js.map
+
+# Arquivos de teste temporários
+vehicles-api-ts/test-dotenv.ts
