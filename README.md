@@ -156,6 +156,7 @@ Após iniciar o frontend (npm start ou npm run dev), abra seu navegador na URL f
 
 📁 Estrutura do Projeto
 
+```
 .
 ├── vehicles-api-ts/           # Pasta do Backend (API Node.js)
 │   ├── src/
@@ -186,6 +187,8 @@ Após iniciar o frontend (npm start ou npm run dev), abra seu navegador na URL f
     ├── package.json           # Dependências e scripts do frontend
     ├── tailwind.config.js     # Configuração do Tailwind CSS
     └── tsconfig.json          # Configuração do TypeScript para o frontend
+```
+
 
 🚧 Melhorias Futuras (Ideias)
 
